@@ -1,0 +1,24 @@
+/* Animation.css */
+.animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34; /* Background color for the animation */
+  color: #00a62f;
+  font-size: 3rem;
+  font-weight: bold;
+  animation: fadeInOut 3s;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}

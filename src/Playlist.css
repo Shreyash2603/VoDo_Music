@@ -1,0 +1,87 @@
+/* Playlist.css */
+
+/* General Styles */
+body {
+  background-color: #121212; /* Dark background for the whole page */
+  color: #e0e0e0; /* Light text color for readability */
+}
+
+.container {
+  padding: 20px;
+}
+
+h2 {
+  color: #00e676; /* Bright green for headings */
+}
+
+/* Card Styles */
+.card {
+  background-color: #1e1e1e; /* Slightly lighter dark background for cards */
+  border: 1px solid #00e676; /* Green border for the card */
+  border-radius: 8px;
+  color: #e0e0e0;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  background-color: #2c2c2c; /* Darker background on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  color: #00e676; /* Green color for card titles */
+}
+
+.list-group-item {
+  background-color: #1e1e1e; /* Dark background for list items */
+  color: #e0e0e0;
+  border: none;
+  border-bottom: 1px solid #333; /* Subtle border between items */
+}
+
+.list-group-item:last-child {
+  border-bottom: none; /* No border for the last item */
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #00e676; /* Green background for primary buttons */
+  border-color: #00e676; /* Green border for primary buttons */
+}
+
+.btn-primary:hover {
+  background-color: #00c853; /* Darker green on hover */
+  border-color: #00c853;
+}
+
+.btn-secondary {
+  background-color: #333; /* Dark background for secondary buttons */
+  border-color: #333;
+  color: #e0e0e0;
+}
+
+.btn-secondary:hover {
+  background-color: #444; /* Slightly lighter dark background on hover */
+  border-color: #444;
+}
+
+/* Input and Audio */
+.form-control {
+  background-color: #1e1e1e; /* Dark background for inputs */
+  border: 1px solid #333;
+  color: #e0e0e0;
+}
+
+.form-control:focus {
+  border-color: #00e676; /* Green border on focus */
+  box-shadow: 0 0 0 0.2rem rgba(0, 230, 118, 0.25);
+}
+
+audio {
+  background-color: #1e1e1e; /* Dark background for audio controls */
+  color: #e0e0e0;
+}
